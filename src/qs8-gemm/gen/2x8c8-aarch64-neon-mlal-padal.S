@@ -1,3 +1,7 @@
+// Auto-generated file. Do not edit!
+//   Template: src/qs8-gemm/2x8c8-aarch64-neon-mlal-padal.S.in
+//   Generator: tools/xngen
+//
 // Copyright 2021 Google LLC
 //
 // This source code is licensed under the BSD-style license found in the
@@ -27,6 +31,7 @@
 # C1  x7 v17 v19 v21 v23 v25 v27 v29 v31
 # temp0   v2 v10 v12 v14
 # temp1   v3 v11 v13 v15
+
 
 BEGIN_FUNCTION xnn_qs8_gemm_minmax_ukernel_2x8c8__aarch64_neon_mlal_padal
 

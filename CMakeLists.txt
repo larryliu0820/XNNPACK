@@ -2898,13 +2898,15 @@ SET(XNNPACK_AARCH64_ASM_MICROKERNEL_SRCS
   src/qs8-gemm/1x16c4-aarch64-neondot-ld64.S
   src/qs8-gemm/1x8c8-aarch64-neon-mlal-padal.S
   src/qs8-gemm/2x8c8-aarch64-neon-mull-padal.S
-  src/qs8-gemm/2x8c8-aarch64-neon-mlal-padal.S
+  src/qs8-gemm/gen/2x8c8-aarch64-neon-mlal-padal.S
+  src/qs8-gemm/gen/2x8c8-aarch64-neon-mlal-padal-prfm.S
   src/qs8-gemm/2x8c16-aarch64-neon-mlal-padal.S
   src/qs8-gemm/4x16c4-aarch64-neondot-cortex-a55.S
   src/qs8-gemm/4x16c4-aarch64-neondot-ld32.S
   src/qs8-gemm/4x16c4-aarch64-neondot-ld64.S
   src/qs8-igemm/1x8c8-aarch64-neon-mlal-padal.S
-  src/qs8-igemm/2x8c8-aarch64-neon-mlal-padal.S
+  src/qs8-igemm/gen/2x8c8-aarch64-neon-mlal-padal.S
+  src/qs8-igemm/gen/2x8c8-aarch64-neon-mlal-padal-prfm.S
   src/qs8-igemm/2x8c16-aarch64-neon-mlal-padal.S
   src/qs8-igemm/4x16c4-aarch64-neondot-cortex-a55.S
   src/qs8-igemm/4x16c4-aarch64-neondot-ld64.S)
